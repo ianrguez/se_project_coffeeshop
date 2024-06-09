@@ -104,6 +104,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="guests" class="form__label"
@@ -112,6 +113,9 @@
                   class="form__input"
                   placeholder="1-8"
                   id="guests"
+                  min="1"
+                  max="8"
+                  required
                 />
               </label>
               <label for="date" class="form__label"
@@ -119,6 +123,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="date"
+                  required
                 />
               </label>
               <label for="email" class="form__label"
@@ -127,6 +132,7 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
