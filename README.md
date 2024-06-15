@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Future plans on improving the project:
+
+- Make the heading section reactive (Create the image and text to ease in as the user opens the website)
