@@ -1,33 +1,30 @@
 @keyframes pulsate {
   0% {
     opacity: 0;
-    transform: scale(1);
   }
   50% {
     opacity: 0.6;
-    transform: scale(1.1); /* slightly larger */
   }
   100% {
     opacity: 0;
-    transform: scale(1);
+    transform: scale(1.2);
   }
 }
 
 .about {
-  padding: 119px 80px 173px 80px;
+  margin: 0 auto;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
   display: flex;
-  gap: 120px;
   justify-content: space-between;
 }
 
 .about__title {
-  margin: 0;
-  font-family: "Inter";
+  margin: 100px 0 0 80px;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -37,12 +34,14 @@
 }
 
 .about__content {
+  margin: 119px 80px 173px 0;
   display: block;
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
   z-index: 1;
+  gap: 20px;
 }
 
 .about__circle {
@@ -50,8 +49,7 @@
   width: 426px;
   height: 426px;
   position: absolute;
-  top: -152px;
-  left: -129px;
+  margin: -152px 0 0 -129px;
   border-radius: 50%;
 }
 

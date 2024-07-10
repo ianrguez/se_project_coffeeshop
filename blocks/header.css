@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -36,6 +37,7 @@
   display: block;
   font-family: "Noto Serif", Arial, sans-serif;
   font-style: italic;
+  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
