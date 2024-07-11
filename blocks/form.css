@@ -38,8 +38,10 @@
   height: 60px;
   padding: 20px;
   box-sizing: border-box;
+  border-color: #838383;
   border-width: 1px;
   border-radius: 4px;
+  border-style: solid;
   margin-top: 8px;
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;

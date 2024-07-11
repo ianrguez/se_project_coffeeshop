@@ -10,11 +10,12 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 .footer__content {
   margin: 0;
+  padding-bottom: 108px;
   display: flex;
   justify-content: space-between;
 }
@@ -50,7 +51,7 @@
 }
 
 .footer__social-icon {
-  gap: 10px;
+  margin-right: 10px;
   width: 16px;
   height: 16px;
 }

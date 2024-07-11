@@ -24,7 +24,7 @@
 
 .about__title {
   margin: 100px 0 0 80px;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -59,7 +59,7 @@
 
 .about__paragraph {
   margin: 0 0 20px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
