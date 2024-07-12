@@ -23,6 +23,8 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   font-weight: 500;
+  position: relative;
+  z-index: 10;
 }
 
 .header__description {
@@ -31,6 +33,8 @@
   font-family: "Noto Serif", Times, serif;
   font-size: 20px;
   line-height: 30px;
+  position: relative;
+  z-index: 10;
 }
 
 .header__span-accent {
@@ -41,6 +45,8 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  position: relative;
+  z-index: 10;
 }
 
 .header__image {
@@ -49,6 +55,7 @@
   height: 568px;
   top: 124px;
   right: 5px;
+  z-index: 1;
 }
 
 .header__footer {
